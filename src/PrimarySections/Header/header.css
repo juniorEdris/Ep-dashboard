@@ -1,0 +1,14 @@
+.header{
+    background-color: var(--theme-color);
+    height: 3.125rem;
+}
+.header .flex_container{
+    line-height: 3.125rem;
+}
+.logo_wrapper a{
+    /* will be change when an image places */
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--light);
+    text-transform: capitalize;
+}
