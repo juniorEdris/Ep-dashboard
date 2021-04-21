@@ -1,0 +1,22 @@
+.left_sidebar{
+    min-height: 100vh;
+    background-color: var(--theme-color);
+}
+.list li{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.list li:hover{
+    background: var(--dark);
+    
+}
+.list li a{
+    display: block;
+    color: var(--light);
+    line-height: 2.7;
+}
+.list li.active{
+    background: var(--dark);
+    
+}

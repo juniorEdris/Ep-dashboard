@@ -1,0 +1,13 @@
+.blogslist a {
+    color: var(--dark);
+}
+
+.blog_wrapper {
+    border: 1px solid var(--theme-color);
+    margin-bottom: 0.75rem;
+    padding: 0.25rem;
+}
+
+.blog_title {
+    font-weight: 500;
+}

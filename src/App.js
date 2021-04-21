@@ -4,11 +4,11 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect,
 } from 'react-router-dom';
 import Header from './PrimarySections/Header/Header';
 import Home from './Home/Home';
 import Root from './Root';
+import SingleBlog from './Home/Components/SubComponents/BlogSections/SingleBlog';
 
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <Router>
       <Header />
         <Switch>
+          <Route path="/blog-details" component={SingleBlog} />
           <Route exact path="/" component={Home} />
           <Route exact path="*" component={Root} />
       </Switch>

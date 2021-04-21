@@ -1,0 +1,15 @@
+.blog_inputs{
+    border-right: 0.05rem solid var(--theme-color);
+}
+.submit_btn{
+    background-color: var(--theme-color);
+    color: var(--light);
+}
+.submit_btn:hover{
+    background-color: var(--dark);
+    color: var(--light);
+}
+/* Blog categories */
+/* .blog_categories{
+
+} */

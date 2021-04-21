@@ -1,0 +1,14 @@
+.single_blog_image{
+    border: 0.25rem solid rgb(241, 231, 231);
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+.single_blog_title h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+.single_blog_body p{
+    font-size: 1.2rem;
+    line-height: 2;
+}
